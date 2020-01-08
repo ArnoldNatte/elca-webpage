@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- fuentes -->
+    <link href="https://fonts.googleapis.com/css?family=Pridi|Work+Sans&display=swap" rel="stylesheet">
+    <title>Carpintería ELCA</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="box header__box">
+            <div class="box_logo">
+                <img src="../img/elca-logo.png" alt="ELCA Logo" class="logo header__box_logo">
+            </div>
+            <!-- Lista (Menú principal) -->
+            <ul class="nav-bar header__nav-bar">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./proyectos.html">Proyectos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--SIGUE CONTENIDO PRINCIPAL -->
+    <main>
+        <section class="sec1__nosotros">
+            <article class="box">
+                <h2>¡Listos para cualquier trabajo!</h2>
+                <!--Formulario-->
+                <form class="margin form" action="">
+                    <fieldset>
+                        <div class="grid">
+                            <div class="form_space">
+                                <legend>Datos personales</legend>
+                                <!--Nombre-->
+                                <label class="block" for="nombre">Nombre
+                                    <input type="text" name="" id="nombre">
+                                </label>
+
+                                <!--Email-->
+                                <label class="block" for="e-mail">E-mail
+                                    <input type="email" name="" id="e-mail" required />
+                                </label>
+
+                                <!--Menú Desplegable-->
+                                <label for="soy">Soy :
+
+                                    <select class="margin" name="" id="soy" required>
+                                        <option value="">Empresa</option>
+                                        <option value="">Contratista</option>
+                                        <option value="">Persona Natural </option>
+                                    </select>
+                                </label>
+
+                                <!--Check Box-->
+                                <div class="block form_check-box">
+                                    <p>Requiero: </p>
+                                    <label for="presupuesto">
+                                        <input id="presupuesto" type="checkbox" name="requiero" />
+                                        Presupuesto
+                                    </label>
+
+                                    <label for="consulta">
+                                        <input id="consulta" type="checkbox" name="requiero" />
+                                        Consulta Técnica
+                                    </label>
+
+                                    <label for="personal">
+                                        <input id="personal" type="checkbox" name="requiero" />
+                                        Contratar Personal
+                                    </label>
+
+                                </div>
+                                <div class="box">
+                                    <!--Boton de reseteo-->
+                                    <button type="reset">Volver a rellenar</button>
+
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </div>
+                            <div class="container_animation">
+                                <div class="cubo">
+                                    <div class="cubo_lado1">
+                                        <img src="../img/elca-logo.png" alt="">
+                                    </div>
+                                    <div class="cubo_lado2">
+                                        <div class="text_lado2">
+                                            "Desde 1975"
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+            </article>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <div class="box footer__box">
+            <div class="part1">
+                <span>
+                    <a href="../index.html">Inicio</a> |
+                    <a href="./nosotros.html">Nosotros</a> |
+                    <a href="./servicios.html">Servicios</a> |
+                    <a href="./proyectos.html">Proyectos</a> |
+                    <a href="./contacto.html">Contacto</a>
+                </span>
+                <span>ELCA® todos los derechos reservados</span>
+                <span>Hecho por: ©Dorian Principe | Desarrollo Web</span>
+                <span>HTML5, CSS3, Javascript.</span>
+            </div>
+            <div class="part2">
+                <span>Contacta con Nosotros</span>
+                <span>(+51) 983 459 444</span>
+                <span>(+51) 980 304 137</span>
+                <span>arnold.natte@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carpintería ELCA</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- fuentes -->
+    <link href="https://fonts.googleapis.com/css?family=Pridi|Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<!--***************************
+
+   Alumno : Dorian Principe
+
+   3ra Entrega del Proyecto.
+
+    Últimas actualizaciones :
+
+   > SASS modules
+   > Grid Layout
+   > Contacto.html re-Diseñado!
+
+   Proximamente la página será Responsive!!
+
+****************************-->
+
+<body>
+    <header>
+        <div class="box header__box">
+            <div class="box_logo">
+                <img src="./img/elca-logo.png" alt="ELCA Logo" class="logo header__box_logo">
+            </div>
+            <ul class="nav-bar header__nav-bar">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./sections-html/nosotros.html">Nosotros</a></li>
+                <li><a href="./sections-html/servicios.html">Servicios</a></li>
+                <li><a href="./sections-html/proyectos.html">Proyectos</a></li>
+                <li><a href="./sections-html/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!--SECTION 1 PRINCIPAL-->
+        <section class="sec1">
+            <div class="box sec1__box">
+                <div class="sec1__item1">
+                    <h1>Carpintería ELCA</h1>
+                    <p>Especialistas en trabajos de madera de cualquier tipo y tamaño.</p>
+                </div>
+                <div class="container_animation">
+                    <div class="cubo">
+                        <div class="cubo_lado1">
+                            <img src="./img/elca-logo.png" alt="">
+                        </div>
+                        <div class="cubo_lado2">
+                            <div class="text_lado2">
+                                "Desde 1975"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Video-->
+                <div class="sec1__item2">
+                    <iframe class="sec1__video" width="650" height="500" src="https://www.youtube.com/embed/JuAJy--4wxg"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <!--SECTION 2 NOSOTROS-->
+        <section class="sec2">
+            <div class="box sec2__box">
+                <h2>¿Quiénes somos?</h2>
+                <div class="sec2__flex-izq">
+                    <img class="img1" src="./img/carpinteria-antigua.jpg" alt="">
+                    <img class="img2" src="./img/carpinteria-moderna.jpg" alt="">
+                </div>
+                <div class="sec2__flex-der flex-der">
+                    <p>
+                        Lorem ipsum dolor sit tionem repudiandae porro velit, facilis aspernatur. Repellat
+                        eligendnde quia aliero?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit ame?
+                    </p>
+
+                    <a class="button--secondary sec2__button" href="./sections-html/nosotros.html">Ver más »</a>
+
+                </div>
+            </div>
+        </section>
+        <!--SECTION 3 QUE HACEMOS-->
+        <section class="sec3">
+            <div class="box sec3__box">
+                <h2>Qué hacemos?</h2>
+                <img class="sec3__img-izq" src="./img/mantenimiento.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fuga ipsum est necessitatibus,
+                    voluptas
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quibusdam excepturi. Ipsum minima ipsam
+                    non
+                    <a class="button--secondary sec3__button" href="./sections-html/servicios.html">Nuestros
+                        Servicios »</a>
+                </p>
+                <img class="sec3__img-der" src="./img/piso_parquet.jpg" alt="">
+            </div>
+        </section>
+        <!--SECTION 4 PROYECTOS-->
+        <section class="sec4">
+            <div class="box sec4__box">
+                <h2>Últimos Proyectos</h2>
+                <div class="sec4__collage">
+                    <img src="./img/piso_parquet.jpg" alt="">
+                    <img src="./img/piso_parquet.jpg" alt="">
+                    <img src="./img/piso_parquet.jpg" alt="">
+                    <img src="./img/piso_parquet.jpg" alt="">
+                    <img src="./img/piso_parquet.jpg" alt="">
+                </div>
+                <a class="button--secondary sec4__button" href="./sections-html/proyectos.html">Ver Todos los
+                    Proyectos »</a>
+            </div>
+        </section>
+        <!--SECTION 5 CONTACTO-->
+        <section class="sec5">
+            <div class="box sec5__box">
+                <h2>¡Elije a los Mejores!</h2>
+                <div class="sec5__info">
+                    <div class="box__info sec5__info__box1">
+                        <h4>Flexible</h4>
+                        <p>
+                            Presupuestos hechos a la medida para minimizar los gastos
+                        </p>
+                    </div>
+                    <div class="box__info sec5__info__box2">
+                        <h4>Experiencia</h4>
+                        <p>
+                            ¡Más de dos generaciones dedicadas a la carpintería!
+                        </p>
+                    </div>
+                    <div class="box__info sec5__info__box3">
+                        <h4>Calidad</h4>
+                        <p>
+                            Hecho con el profesionalismo competente que nos caracteriza
+                        </p>
+                    </div>
+                </div>
+                <a class="button--primary sec5__button" href="./sections-html/contacto.html">¡Quiero
+                    Contratarlos! »</a>
+            </div>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <div class="box footer__box">
+            <div class="part1">
+                <span>
+                    <a href="./index.html">Inicio</a> |
+                    <a href="./sections-html/nosotros.html">Nosotros</a> |
+                    <a href="./sections-html/servicios.html">Servicios</a> |
+                    <a href="./sections-html/proyectos.html">Proyectos</a> |
+                    <a href="./sections-html/contacto.html">Contacto</a>
+                </span>
+                <span>ELCA® todos los derechos reservados</span>
+                <span>Hecho por: ©Dorian Principe | Desarrollo Web</span>
+                <span>HTML5, CSS3, Javascript.</span>
+            </div>
+            <div class="part2">
+                <span>Contacta con Nosotros</span>
+                <span>(+51) 983 459 444</span>
+                <span>(+51) 980 304 137</span>
+                <span>arnold.natte@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
