@@ -1,0 +1,121 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: auto;
+text-align: center;
+color: $c2dark;
+font-family: $font-f-principal;
+}
+
+p {
+font-size: $font-normal;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #51563A;
+}
+
+p {
+    color: #6B6B68;
+}
+
+span {
+    color: #D8D5CE;
+}
+
+ul {
+    color: #F0EFED;
+}
+
+li,
+li span {
+    color: #513B24;
+}
+
+/*   ESTILOS EN TEXTO   */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,a,
+.nav-bar {
+    font-family: 'Pridi', serif;
+}
+
+.tabla-servicios,
+form,
+p,
+span,
+span a,
+input,
+select {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    font-size: 5.5rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 4.5rem;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: #513B24;
+    background-color: #abb67c;
+}
+
+.nav-bar li a:hover {
+    color: #F0EFED;
+    box-shadow: 0px 1px 10px #978101;
+}
+
+/**/
+a.button--primary,
+a.button--secondary {
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+input,
+select,
+button {
+    font-size: 1.8rem;
+}
+
+.boton_s5 {
+    background-color: #978101;
+
+}
+
+span a {
+    color: $c1lighter;
+    text-decoration: none;
+}
+
+span a:hover {
+    color: #d8b801;
+}
+
+a.button--secondary:hover,
+a.button--primary:hover {
+    background-color: $c-dorado;
+    color: $c1lighter;
+}

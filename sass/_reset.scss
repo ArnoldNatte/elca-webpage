@@ -1,0 +1,31 @@
+/**********************/
+/*  CAMBIOS GENERALES   */
+/**********************/
+
+$c1: #D8D5CE;
+$c2: #9AA36E;
+$c2dark:#51563A; 
+$c3: #B49F8A;
+$c4: #A8A7A2;
+$c5: #F0EFED;
+$c-marron_logo: #513B24;
+$c-dorado: #BF7E04;
+$c1lighter: #fbfbfa;
+$font-principal: 3rem;
+$font-normal: 2.2rem;
+$font-f-principal: 'Pridi', serif;
+$font-f-text: 'Work Sans', sans-serif;
+
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+font-size: $font-normal;
+max-width: 100vw;
+}

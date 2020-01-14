@@ -1,0 +1,119 @@
+/* NOSOTROS */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding-bottom: 2rem;
+    }
+}
+
+.sec1__nosotros {
+    height: auto;
+    margin: 0px 7rem;
+    margin-top: 10rem;
+}
+
+.iframe_nosotros {
+    display: block;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+/* SERVICIOS */
+
+.art_tabla-servicios {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.tabla-servicios {
+    margin: auto;
+
+    p {
+        padding: 0 10px;
+    }
+
+    tr {
+        text-align: center;
+        background-color: $c1lighter;
+    }
+}
+
+.tabla-servicios tr td {
+    padding: 10px 0;
+    margin: 0;
+    vertical-align: top;
+    border-bottom: 2px solid black;
+    width: 200px;
+}
+
+.tabla-servicios tr td ul {
+    list-style-type: square;
+    width: 250px;
+    margin: 20px 50px;
+    text-align: left;
+    vertical-align: center;
+}
+
+
+/* PROYECTOS */
+
+.art_proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.art_proyectos img {
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+    margin: auto;
+}
+
+/* CONTACTO */
+
+.form {
+    margin: 10rem 0;
+    display: block;
+
+    fieldset {
+        .grid {
+            display: grid;
+            grid-template-columns: 5fr  3fr;
+            grid-template-rows: auto;
+
+            .container_animation {
+                align-self: center;
+            }
+        }
+
+        .form_space {
+            margin: 6rem 5rem;
+            justify-self: center;
+            width: 60%;
+        }
+    }
+}
+
+.block {
+    display: block;
+    margin: 2rem 0px;
+}
+
+.form_check-box {
+    label {
+        display: block;
+    }
+}
+
+.margin {
+    margin: 20px 10px;
+}
+
+button {
+    padding: 10px 30px;
+}
