@@ -7,12 +7,28 @@
     h2 {
         padding-bottom: 2rem;
     }
+
+    .img-carpintero {
+        // background: red;
+        margin: auto;
+        margin-bottom: 3rem;
+        img {
+            display:block;
+            margin: auto;
+            width: 40%;
+            height: auto;
+        }
+    }
 }
 
 .sec1__nosotros {
     height: auto;
     margin: 0px 7rem;
     margin-top: 10rem;
+    p {
+        width: 70%;
+        margin: auto;
+    }
 }
 
 .iframe_nosotros {
