@@ -4,211 +4,748 @@
 /**********************/
 /*  CAMBIOS GENERALES   */
 /**********************/
-* { margin: 0; padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_reset\.scss}line{font-family:\0000319}}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-html { font-size: 62.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_reset\.scss}line{font-family:\0000324}}
+html {
+  font-size: 62.5%;
+}
 
-body { font-size: 2.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_reset\.scss}line{font-family:\0000328}}
+body {
+  font-size: 2.2rem;
+}
 
-h1, h2, h3, h4, h5, h6 { margin: auto; text-align: center; color: #51563A; font-family: "Pridi", serif; color: #51563A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\000032}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: auto;
+  text-align: center;
+  color: #51563A;
+  font-family: "Pridi", serif;
+  color: #51563A;
+}
 
-p { font-size: 2.2rem; color: #6B6B68; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000315}}
+p {
+  font-size: 2.2rem;
+  color: #6B6B68;
+}
 
-span { color: #D8D5CE; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000320}}
+span {
+  color: #D8D5CE;
+}
 
-ul { color: #F0EFED; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000324}}
+ul {
+  color: #F0EFED;
+}
 
-li, li span { color: #513B24; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000328}}
+li,
+li span {
+  color: #513B24;
+}
 
 /*   ESTILOS EN TEXTO   */
-h1, h2, h3, h4, h5, h6, a, .nav-bar { font-family: 'Pridi', serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000335}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, a,
+.nav-bar {
+  font-family: 'Pridi', serif;
+}
 
-.tabla-servicios, form, p, span, span a, input, select { font-family: 'Work Sans', sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000345}}
+.tabla-servicios,
+form,
+p,
+span,
+span a,
+input,
+select {
+  font-family: 'Work Sans', sans-serif;
+}
 
-h1 { font-size: 5.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000355}}
+h1 {
+  font-size: 5.5rem;
+}
 
-h2 { font-size: 5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000359}}
+h2 {
+  font-size: 5rem;
+}
 
-h3 { font-size: 4.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000363}}
+h3 {
+  font-size: 4.5rem;
+}
 
-h4 { font-size: 2.8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000367}}
+h4 {
+  font-size: 2.8rem;
+}
 
-.nav-bar li a { text-decoration: none; color: #513B24; background-color: #abb67c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000371}}
+.nav-bar li a {
+  text-decoration: none;
+  color: #513B24;
+  background-color: #abb67c;
+}
 
-.nav-bar li a:hover { color: #F0EFED; box-shadow: 0px 1px 10px #978101; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000377}}
+.nav-bar li a:hover {
+  color: #F0EFED;
+  box-shadow: 0px 1px 10px #978101;
+}
 
 /**/
-a.button--primary, a.button--secondary { font-size: 2.5rem; text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000383}}
+a.button--primary,
+a.button--secondary {
+  font-size: 2.5rem;
+  text-decoration: none;
+}
 
-input, select, button { font-size: 1.8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000389}}
+input,
+select,
+button {
+  font-size: 1.8rem;
+}
 
-.boton_s5 { background-color: #978101; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000395}}
+.boton_s5 {
+  background-color: #978101;
+}
 
-span a { color: #fbfbfa; text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\0000399}}
+span a {
+  color: #fbfbfa;
+  text-decoration: none;
+}
 
-span a:hover { color: #d8b801; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\00003104}}
+span a:hover {
+  color: #d8b801;
+}
 
-a.button--secondary:hover, a.button--primary:hover { background-color: #BF7E04; color: #fbfbfa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_base\.scss}line{font-family:\00003108}}
+a.button--secondary:hover,
+a.button--primary:hover {
+  background-color: #BF7E04;
+  color: #fbfbfa;
+}
 
-.box { box-sizing: border-box; height: 100%; width: 90%; max-width: 1440px; margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\000031}}
+.box {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
 
-a.button--secondary, a.button--primary { padding: 10px 50px; border-radius: 8px 0; font-family: "Pridi", serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\000039}}
+a.button--secondary,
+a.button--primary {
+  padding: 10px 50px;
+  border-radius: 8px 0;
+  font-family: "Pridi", serif;
+}
 
 /*----------HEADER-----------*/
-header { height: 10rem; background-color: #F0EFED; position: fixed; top: 0; width: 100%; z-index: 9999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000319}}
+header {
+  height: 10rem;
+  background-color: #F0EFED;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
 
-.header__box { display: flex; justify-content: space-between; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000329}}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 2rem;
+}
 
-.header__nav-bar { display: flex; justify-content: space-around; flex-wrap: wrap-reverse; list-style-type: none; font-size: 2.5rem; flex-grow: 9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000336}}
+.header__nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: 2.5rem;
+}
 
-.header__nav-bar li a { padding: 5px; margin: 0 5px; border-radius: 8px 8px 0px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000345}}
+.header__nav-bar li a {
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 8px 0px 8px 0px;
+}
 
 /*----------SEC 1-----------*/
-section { /* Para navegadores que no soporten calc */ min-height: 85vh; height: calc(100vh - 10rem); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000353}}
+section {
+  /* Para navegadores que no soporten calc */
+  min-height: 85vh;
+  height: calc(100vh - 10rem);
+}
 
-.sec1 { margin-top: 10rem; background-color: #fbfbfa; }
-.sec1 .sec1__box { height: 100%; }
-.sec1 .sec1__box .sec1__item1 { align-self: center; }
-.sec1 .sec1__box .sec1__item1 h1 { margin-bottom: 5rem; }
-.sec1 .sec1__box .sec1__item1 p { margin: 0 2rem; font-size: 3rem; text-align: center; line-height: 4rem; margin-bottom: 4rem; }
-.sec1 .sec1__box .container_animation { align-self: center; justify-self: center; }
-.sec1 .sec1__box .sec1__item2 { justify-self: stretch; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000359}}
+.sec1 {
+  margin-top: 10rem;
+  background-color: #fbfbfa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000363}}
+.sec1 .sec1__box {
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000369}}
+.sec1 .sec1__box .sec1__item1 {
+  align-self: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000376}}
+.sec1 .sec1__box .sec1__item1 p {
+  margin: 0 2rem;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 4rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000385}}
+.sec1 .sec1__box .container_animation {
+  align-self: center;
+  justify-self: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000390}}
+.sec1 .sec1__box .sec1__item2 {
+  justify-self: stretch;
+}
 
-.sec1__video { box-sizing: border-box; width: 100%; height: 100%; padding: 5rem 0rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\0000397}}
+.sec1__video {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0rem;
+}
 
 /*---------SEC 2------------*/
-.sec2 { background-color: #D8D5CE; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003107}}
+.sec2 {
+  background-color: #D8D5CE;
+}
 
-.sec2__box { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 80px 1fr; }
-.sec2__box h2 { grid-column: 1 / 3; margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003111}}
+.sec2__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 1fr;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003116}}
+.sec2__box h2 {
+  grid-column: 1 / 3;
+  margin-top: 20px;
+}
 
-.sec2__flex-izq .img1 { width: 250px; height: 300px; position: relative; bottom: 20px; left: 20px; opacity: 0.8; filter: grayscale(0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003122}}
+.sec2__flex-izq .img1 {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0.8;
+  filter: grayscale(0.8);
+}
 
-.sec2__flex-izq .img2 { width: 250px; height: 300px; position: relative; top: 20px; right: 20px; opacity: 0.9; filter: saturate(0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003132}}
+.sec2__flex-izq .img2 {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  top: 20px;
+  right: 20px;
+  opacity: 0.9;
+  filter: saturate(0.8);
+}
 
-.sec2__flex-izq { display: flex; justify-content: center; align-items: center; width: auto; flex-grow: 5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003142}}
+.sec2__flex-izq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  flex-grow: 5;
+}
 
-.sec2__flex-der { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px 0px; flex-grow: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003150}}
+.sec2__flex-der {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  flex-grow: 2;
+}
 
-.sec2__flex-der p { width: 75%; font-size: 3rem; margin: 20px 0 0 0; text-align: center; line-height: 3.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003159}}
+.sec2__flex-der p {
+  width: 75%;
+  font-size: 3rem;
+  margin: 20px 0 0 0;
+  text-align: center;
+  line-height: 3.5rem;
+}
 
-.sec2__button { margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003167}}
+.sec2__button {
+  margin-top: 50px;
+}
 
-.button--secondary { background-color: #fbfbfa; border: solid 3px #BF7E04; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003171}}
+.button--secondary {
+  background-color: #fbfbfa;
+  border: solid 3px #BF7E04;
+}
 
-.button--secondary { color: #BF7E04; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003176}}
+.button--secondary {
+  color: #BF7E04;
+}
 
 /*---------SEC 3------------*/
-.sec3__box { display: grid; grid-template: 120px 1fr / 2fr 4fr 2fr; justify-content: center; align-items: center; width: 100%; height: 100%; }
-.sec3__box img { height: 300px; width: 260px; margin: 50px; }
-.sec3__box h2 { grid-column: 1 / 4; }
-.sec3__box p { text-align: center; font-size: 3rem; }
-.sec3__box p .sec3__button { display: block; margin: auto; margin-top: 50px; width: 280px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003182}}
+.sec3__box {
+  display: grid;
+  grid-template: 120px 1fr / 2fr 4fr 2fr;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003190}}
+.sec3__box img {
+  height: 300px;
+  width: 260px;
+  margin: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003196}}
+.sec3__box h2 {
+  grid-column: 1 / 4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003200}}
+.sec3__box p {
+  text-align: center;
+  font-size: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003204}}
+.sec3__box p .sec3__button {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  width: 280px;
+}
 
 /*********SEC 4*************/
-.sec4 { background-color: #D8D5CE; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003216}}
+.sec4 {
+  background-color: #D8D5CE;
+}
 
-.sec4__box { display: grid; grid-template: 100px 1fr 100px / 1fr; padding: 0; }
-.sec4__box .sec4__collage { box-sizing: border-box; width: 80%; height: 100%; padding: 0px 4rem; display: flex; flex-wrap: wrap; margin: auto; }
-.sec4__box .sec4__collage img { display: block; margin: auto; height: 150px; width: 250px; max-width: 100%; }
-.sec4__box a { justify-self: center; align-self: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003220}}
+.sec4__box {
+  display: grid;
+  grid-template: 100px 1fr 100px / 1fr;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003224}}
+.sec4__box .sec4__collage {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  padding: 0px 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003233}}
+.sec4__box .sec4__collage img {
+  display: block;
+  margin: auto;
+  height: 150px;
+  width: 250px;
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003240}}
+.sec4__box a {
+  justify-self: center;
+  align-self: flex-start;
+}
 
 /**********SEC 5************/
-.sec5 { background-color: #F0EFED; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003248}}
+.sec5 {
+  background-color: #F0EFED;
+}
 
-.sec5__box { height: 100%; display: flex; flex-direction: column; justify-content: space-evenly; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003252}}
+.sec5__box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
-.sec5__info { display: flex; flex-wrap: wrap; justify-content: space-evenly; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003260}}
+.sec5__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-.box__info { width: 250px; min-height: 180px; padding: 20px 0px; margin: 20px; border: solid 3px #BF7E04; border-radius: 10px 0; display: flex; flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003267}}
+.box__info {
+  width: 250px;
+  min-height: 180px;
+  padding: 20px 0px;
+  margin: 20px;
+  border: solid 3px #BF7E04;
+  border-radius: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
 
-.box__info p { margin-top: 10px; text-align: center; margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003279}}
+.box__info p {
+  margin-top: 10px;
+  text-align: center;
+  margin: auto;
+}
 
-.box__info h4 { justify-self: flex-start; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003285}}
+.box__info h4 {
+  justify-self: flex-start;
+}
 
-.sec5__button { display: inline-block; text-align: center; margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003289}}
+.sec5__button {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+}
 
-.button--primary { background-color: #fbfbfa; border: solid 3px #BF7E04; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003296}}
+.button--primary {
+  background-color: #fbfbfa;
+  border: solid 3px #BF7E04;
+}
 
-.button--primary { color: #BF7E04; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003301}}
+.button--primary {
+  color: #BF7E04;
+}
 
 /**********************/
-footer { background-color: #9AA36E; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003307}}
+footer {
+  background-color: #9AA36E;
+}
 
-.footer__box { padding: 50px 50px; width: 90%; margin: auto; display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003311}}
+.footer__box {
+  padding: 50px 50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
 
-.part1 { flex-grow: 4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003319}}
+.part1 {
+  flex-grow: 4;
+}
 
-.part2 { flex-grow: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003323}}
+.part2 {
+  flex-grow: 2;
+}
 
-div.part1 span, div.part2 span { display: block; padding: 5px; color: #513B24; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--main-page\.scss}line{font-family:\00003327}}
+div.part1 span,
+div.part2 span {
+  display: block;
+  padding: 5px;
+  color: #513B24;
+}
 
 /* NOSOTROS */
-.flex-column { display: flex; flex-direction: column; }
-.flex-column h2 { padding-bottom: 2rem; }
-.flex-column .img-carpintero { margin: auto; margin-bottom: 3rem; }
-.flex-column .img-carpintero img { display: block; margin: auto; width: 40%; height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\000033}}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\000037}}
+.flex-column h2 {
+  padding-bottom: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000311}}
+.flex-column .img-carpintero {
+  margin: auto;
+  margin-bottom: 3rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000315}}
+.flex-column .img-carpintero img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: auto;
+}
 
-.sec1__nosotros { height: auto; margin: 0px 7rem; margin-top: 10rem; }
-.sec1__nosotros p { width: 70%; margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000324}}
+.sec1__nosotros {
+  height: auto;
+  margin: 0px 7rem;
+  margin-top: 10rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000328}}
+.sec1__nosotros p {
+  width: 70%;
+  margin: auto;
+}
 
-.iframe_nosotros { display: block; margin: auto; padding-bottom: 5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000334}}
+.iframe_nosotros {
+  display: block;
+  margin: auto;
+  padding-bottom: 5rem;
+}
 
 /* SERVICIOS */
-.art_tabla-servicios { padding: 10px 0; width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000342}}
+.art_tabla-servicios {
+  padding: 10px 0;
+  width: 100%;
+}
 
-.tabla-servicios { margin: auto; }
-.tabla-servicios p { padding: 0 10px; }
-.tabla-servicios tr { text-align: center; background-color: #fbfbfa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000347}}
+.tabla-servicios {
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000350}}
+.tabla-servicios p {
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000354}}
+.tabla-servicios tr {
+  text-align: center;
+  background-color: #fbfbfa;
+}
 
-.tabla-servicios tr td { padding: 10px 0; margin: 0; vertical-align: top; border-bottom: 2px solid black; width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000360}}
+.tabla-servicios tr td {
+  padding: 10px 0;
+  margin: 0;
+  vertical-align: top;
+  border-bottom: 2px solid black;
+  width: 200px;
+}
 
-.tabla-servicios tr td ul { list-style-type: square; width: 250px; margin: 20px 50px; text-align: left; vertical-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000368}}
+.tabla-servicios tr td ul {
+  list-style-type: square;
+  width: 250px;
+  margin: 20px 50px;
+  text-align: left;
+  vertical-align: center;
+}
 
 /* PROYECTOS */
-.art_proyectos { display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000379}}
+.art_proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
-.art_proyectos img { width: 300px; height: 250px; padding: 25px; margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000386}}
+.art_proyectos img {
+  width: 300px;
+  height: 250px;
+  padding: 25px;
+  margin: auto;
+}
 
 /* CONTACTO */
-.form { margin: 10rem 0; display: block; }
-.form fieldset .grid { display: grid; grid-template-columns: 5fr  3fr; grid-template-rows: auto; }
-.form fieldset .grid .container_animation { align-self: center; }
-.form fieldset .form_space { margin: 6rem 5rem; justify-self: center; width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\0000395}}
+.form {
+  margin: 10rem 0;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\00003100}}
+.form fieldset .grid {
+  display: grid;
+  grid-template-columns: 5fr  3fr;
+  grid-template-rows: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\00003105}}
+.form fieldset .grid .container_animation {
+  align-self: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\00003110}}
+.form fieldset .form_space {
+  margin: 6rem 5rem;
+  justify-self: center;
+  width: 60%;
+}
 
-.block { display: block; margin: 2rem 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\00003118}}
+.block {
+  display: block;
+  margin: 2rem 0px;
+}
 
-.form_check-box label { display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\00003124}}
+.form_check-box label {
+  display: block;
+}
 
-.margin { margin: 20px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\00003129}}
+.margin {
+  margin: 20px 10px;
+}
 
-button { padding: 10px 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_layout--others-pages\.scss}line{font-family:\00003133}}
+button {
+  padding: 10px 30px;
+}
 
-.box_logo { width: 250px; height: 80px; margin: 0 120px; display: flex; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_imagenes\.scss}line{font-family:\000031}}
+.box_logo {
+  height: 80px;
+  padding: 0px 2rem;
+  display: flex;
+  align-items: center;
+}
 
-.logo { max-width: 100%; height: 100%; margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_imagenes\.scss}line{font-family:\000038}}
+.logo {
+  max-width: 100%;
+  height: 100%;
+  margin: auto;
+}
 
-.tabla-servicios tr td img { width: 200px; height: 180px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_imagenes\.scss}line{font-family:\0000314}}
+.tabla-servicios tr td img {
+  width: 200px;
+  height: 180px;
+}
 
-.s3 article img { width: 300px; height: 250px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_imagenes\.scss}line{font-family:\0000319}}
+.s3 article img {
+  width: 300px;
+  height: 250px;
+}
 
-.nav-bar li a { transition: all 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\000031}}
+.nav-bar li a {
+  transition: all 0.3s;
+}
 
-a.button--secondary, a.button--primary { transition: all 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\000035}}
+a.button--secondary,
+a.button--primary {
+  transition: all 0.3s;
+}
 
-.container_animation { background-color: #fbfbfa; width: 252px; height: 300px; position: relative; perspective: 400px; }
-.container_animation .cubo { transform-style: preserve-3d; transform: rotateY(0deg); animation: rotar 6s ease 1s infinite reverse; }
-.container_animation .cubo, .container_animation .cubo div { width: 100%; height: 100%; position: absolute; margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\0000310}}
+.container_animation {
+  background-color: #fbfbfa;
+  width: 252px;
+  height: 300px;
+  position: relative;
+  perspective: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\0000316}}
+.container_animation .cubo {
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  animation: rotar 6s ease 1s infinite reverse;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\0000321}}
+.container_animation .cubo,
+.container_animation .cubo div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+}
 
-.cubo_lado1 { background: #fbfbfa; }
-.cubo_lado1 img { display: block; margin: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\0000329}}
+.cubo_lado1 {
+  background: #fbfbfa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\0000331}}
+.cubo_lado1 img {
+  display: block;
+  margin: auto;
+}
 
-.cubo_lado2 { transform: rotateY(180deg) translateZ(5px); }
-.cubo_lado2 .text_lado2 { display: flex; justify-content: center; align-items: center; width: 50px; height: 50px; background-color: #fbfbfa; text-shadow: 2px 2px 5px #9AA36E; font-size: 3rem; font-family: "Work Sans", sans-serif; color: #513B24; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\0000336}}
+.cubo_lado2 {
+  transform: rotateY(180deg) translateZ(5px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/_transiciones-animaciones\.scss}line{font-family:\0000338}}
+.cubo_lado2 .text_lado2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fbfbfa;
+  text-shadow: 2px 2px 5px #9AA36E;
+  font-size: 3rem;
+  font-family: "Work Sans", sans-serif;
+  color: #513B24;
+}
 
-@keyframes rotar { 0% { transform: rotateY(0deg); }
-  15% { transform: rotateY(180deg); }
-  50% { transform: rotateY(180deg); }
-  65% { transform: rotateY(0deg); }
-  100% { transform: rotateY(0deg); } }
-@media (max-width: 991.98px) { section { height: auto; } }
+@keyframes rotar {
+  0% {
+    transform: rotateY(0deg);
+  }
+  15% {
+    transform: rotateY(180deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  65% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+@media (max-width: 991.98px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Dorian\.DESKTOP-NDDN1OT\/Desktop\/carpinteria-elca_repository\/elca-webpage\/sass\/layout\/_responsive\.scss}line{font-family:\0000312}}
+  section {
+    height: auto;
+  }
+}
