@@ -1,11 +1,5 @@
-@media (max-width: 575.98px) {
-    
-}
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-
-}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
@@ -13,10 +7,35 @@
         height: auto;
     }
 
+    header {
+        background: red;
+    }
+// seccion 1 seccion 1 seccion 1 seccion 1
+    .sec1__box {
+        grid-template-areas: 
+        "h1 h1 h1 h1"
+        "p p p p"
+        "video video video video" !important; 
+    }
+    
+    .sec1_video {
+        height: 50rem;
+    }
+
+    .sec1_anim {
+        display: none !important;
+    }
+
+// seccion 2 seccion 2 seccion 2 seccion 2
+
+    
 }
 
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {
-    
-    
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    header {
+        background: green;
+    }
 }
+
+@media (min-width: 575.98px) {}
