@@ -4,7 +4,8 @@
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
     section {
-        height: auto;
+        height: auto !important;
+        min-height: auto;
     }
 
     header {
@@ -27,6 +28,28 @@
     }
 
 // seccion 2 seccion 2 seccion 2 seccion 2
+
+    .sec2__flex-izq img{
+        height: 50% !important;
+        width: 45% !important;
+    }
+
+// seccion 3 seccion 3 seccion 3 seccion 3
+    .sec3__box img {
+        // height: 90% !important;
+        // width: 79% !important;
+    }
+    .sec3__img-der {
+        display: none;
+    }
+    .sec3__box p{
+        grid-column: 2 / 5;
+        grid-row: 2 / 3;
+        padding: 1.5rem;
+    }
+
+// seccion 4 seccion 4 seccion 4 seccion 4
+    
 
     
 }
