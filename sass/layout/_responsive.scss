@@ -1,16 +1,31 @@
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {}
+@media (min-width: 991.99px) {
+    .navbar-toggle{
+        display: none !important;
+    }
+
+    .sec3{
+         height: auto !important;
+    }
+    .sec4__box,
+    .sec3__box{
+        height: 100% !important;
+    }
+    
+}
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+
+    .header__nav-bar li {
+        margin: 0px 0.1rem;
+    }
+
     section {
         height: auto !important;
         min-height: auto;
     }
 
-    header {
-        background: red;
-    }
 // seccion 1 seccion 1 seccion 1 seccion 1
     .sec1__box {
         grid-template-areas: 
@@ -50,15 +65,107 @@
 
 // seccion 4 seccion 4 seccion 4 seccion 4
     
+.navbar-toggle{
+    display: none !important;
+}
 
-    
+.sec5__button{
+    margin: 2rem auto;
+}
+
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-    header {
-        background: green;
+@media (min-width: 5.99px) and (max-width: 767.98px) {
+    
+    .nav-bar{
+        display: none;
+    }
+
+    section{
+        height: auto !important;
+    }
+
+    // HEADER
+
+    // SECTION 1
+    .sec1__box {
+        grid-template-areas: 
+        "h1 h1 h1 h1"
+        "p p p p"
+        "video video video video" !important; 
+    }
+    
+    .sec1_video {
+        height: 50rem;
+    }
+
+    .sec1_anim {
+        display: none !important;
+    }
+
+    // SECTION 2
+    .sec2__box{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        "sec2_h2"
+        "sec2_imgs"
+        "sec2_text";
+        .sec2__flex-izq{
+            width: 80% !important;
+            margin: auto;
+            img{
+                width: 50% !important;
+                margin: auto;
+            }
+        }
+    }
+    .sec2__box h2{
+        grid-area: sec2_h2;
+    }
+    .sec2__box > .sec2__flex-izq{
+        grid-area: sec2_imgs;
+    }
+    .sec2__box > .sec2__flex-der{
+        grid-area: sec2_text;
+    }
+
+    // SECTION 3
+    .sec3__box{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        "sec3_h2 sec3_h2"
+        "sec3_img1 sec3_img2"
+        "sec3_text sec3_text";
+        img {
+            width: 80%;
+            margin: auto;
+        }
+    }
+    .sec3__box > h2{
+        grid-area: sec3_h2;
+    }
+    .sec3__box > .sec3__img-der{
+        grid-area: sec3_img2;
+    }
+    .sec3__box > .sec3__img-izq{
+        grid-area: sec3_img1;
+    }
+    .sec3__box > p{
+        grid-area: sec3_text;
+        width: 75%;
+        margin: auto;
+        .sec3__button{
+            width: 250px;
+        }
     }
 }
 
-@media (min-width: 575.98px) {}
+// Xtra Small devices (landscape phones, less than 576px)
+@media (max-width: 575.98px){
+    .nav-bar{
+        display: none;
+    }
+}

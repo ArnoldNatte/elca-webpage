@@ -36,16 +36,23 @@ header {
 .header__nav-bar {
     display: flex;
     flex-wrap: wrap;
-    // margin-right: 2rem;
     list-style-type: none;
-    font-size: 2.5rem;
-    // flex-grow: 9;
+    font-size: 2.3rem;
+}
+
+.header__nav-bar li {
+    margin: 0px 0.5rem;
 }
 
 .header__nav-bar li a {
-    padding: 5px;
-    margin: 0 5px;
+    padding: 5px 10px;
+    margin: 0px 5px;
     border-radius: 8px 0px 8px 0px;
+}
+
+.fas{
+    color: #513B24;
+    font-size: 3.5rem;
 }
 
 /*----------SEC 1-----------*/
@@ -79,10 +86,12 @@ section {
         .sec1_p {
             grid-area: p;
             margin: 0 2rem;
-            font-size: 3rem;
-            text-align: center;
             line-height: 4rem;
             // margin-bottom: 4rem;
+            p{
+                font-size: 3rem;
+                text-align: center;
+            }
         }
 
         .sec1_anim {
@@ -221,9 +230,8 @@ section {
 
         .sec3__button {
             display: block;
-            margin: auto;
-            margin-top: 50px;
-            
+            margin: 50px auto;
+            width: auto;
         }
     }
 
@@ -233,12 +241,14 @@ section {
 
 .sec4 {
     background-color: $c1;
+    height: auto;
 }
 
 .sec4__box {
     display: grid;
     grid-template: 100px 1fr 100px / 1fr;
     padding: 0;
+    height: 100%;
 
     .sec4__collage {
         box-sizing: border-box;
@@ -256,11 +266,13 @@ section {
         height: 150px;
         width: 250px;
         max-width: 100%;
+        padding: 1rem;
     }
 
     a {
+        display: block;
         justify-self: center;
-        align-self: flex-start;
+        align-self: center;
     }
 }
 
@@ -321,6 +333,10 @@ section {
 
 .button--primary {
     color: $c-dorado;
+}
+
+.sec5__button{
+    margin: 2rem auto;
 }
 
 /**********************/
